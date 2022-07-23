@@ -1,0 +1,106 @@
+[2022-07-23 00:33:51] - INFO:  ### 将当前配置打印到日志文件中 
+[2022-07-23 00:33:51] - INFO: ###  project_dir = /home/ubuntu/hw-BMCourse/L2
+[2022-07-23 00:33:51] - INFO: ###  dataset_dir = /home/ubuntu/hw-BMCourse/L2/data/glue-sst2
+[2022-07-23 00:33:51] - INFO: ###  pretrained_model_dir = /home/ubuntu/hw-BMCourse/L2/bert-base-uncased
+[2022-07-23 00:33:51] - INFO: ###  vocab_path = /home/ubuntu/hw-BMCourse/L2/bert-base-uncased/vocab.txt
+[2022-07-23 00:33:51] - INFO: ###  device = cuda:0
+[2022-07-23 00:33:51] - INFO: ###  train_file_path = /home/ubuntu/hw-BMCourse/L2/data/glue-sst2/train.txt
+[2022-07-23 00:33:51] - INFO: ###  val_file_path = /home/ubuntu/hw-BMCourse/L2/data/glue-sst2/dev.txt
+[2022-07-23 00:33:51] - INFO: ###  test_file_path = /home/ubuntu/hw-BMCourse/L2/data/glue-sst2/test.txt
+[2022-07-23 00:33:51] - INFO: ###  model_save_dir = /home/ubuntu/hw-BMCourse/L2/cache
+[2022-07-23 00:33:51] - INFO: ###  out_path = /home/ubuntu/hw-BMCourse/L2/out.txt
+[2022-07-23 00:33:51] - INFO: ###  logs_save_dir = /home/ubuntu/hw-BMCourse/L2/logs
+[2022-07-23 00:33:51] - INFO: ###  split_sep = _!_
+[2022-07-23 00:33:51] - INFO: ###  is_sample_shuffle = True
+[2022-07-23 00:33:51] - INFO: ###  batch_size = 30
+[2022-07-23 00:33:51] - INFO: ###  max_sen_len = None
+[2022-07-23 00:33:51] - INFO: ###  num_labels = 2
+[2022-07-23 00:33:51] - INFO: ###  epochs = 10
+[2022-07-23 00:33:51] - INFO: ###  model_val_per_epoch = 2
+[2022-07-23 00:33:51] - INFO: ###  vocab_size = 30522
+[2022-07-23 00:33:51] - INFO: ###  hidden_size = 768
+[2022-07-23 00:33:51] - INFO: ###  num_hidden_layers = 12
+[2022-07-23 00:33:51] - INFO: ###  num_attention_heads = 12
+[2022-07-23 00:33:51] - INFO: ###  hidden_act = relu
+[2022-07-23 00:33:51] - INFO: ###  intermediate_size = 3072
+[2022-07-23 00:33:51] - INFO: ###  pad_token_id = 0
+[2022-07-23 00:33:51] - INFO: ###  hidden_dropout_prob = 0.1
+[2022-07-23 00:33:51] - INFO: ###  attention_probs_dropout_prob = 0.1
+[2022-07-23 00:33:51] - INFO: ###  max_position_embeddings = 512
+[2022-07-23 00:33:51] - INFO: ###  type_vocab_size = 2
+[2022-07-23 00:33:51] - INFO: ###  initializer_range = 0.02
+[2022-07-23 00:33:51] - INFO: ###  architectures = ['BertForMaskedLM']
+[2022-07-23 00:33:51] - INFO: ###  gradient_checkpointing = False
+[2022-07-23 00:33:51] - INFO: ###  layer_norm_eps = 1e-12
+[2022-07-23 00:33:51] - INFO: ###  model_type = bert
+[2022-07-23 00:33:51] - INFO: ###  position_embedding_type = absolute
+[2022-07-23 00:33:51] - INFO: ###  transformers_version = 4.6.0.dev0
+[2022-07-23 00:33:51] - INFO: ###  use_cache = True
+[2022-07-23 00:33:55] - INFO: 缓存文件 /home/ubuntu/hw-BMCourse/L2/data/glue-sst2/test_None.pt 存在，直接载入缓存文件！
+[2022-07-23 00:33:55] - INFO: 缓存文件 /home/ubuntu/hw-BMCourse/L2/data/glue-sst2/train_None.pt 存在，直接载入缓存文件！
+[2022-07-23 00:34:02] - INFO: 缓存文件 /home/ubuntu/hw-BMCourse/L2/data/glue-sst2/dev_None.pt 存在，直接载入缓存文件！
+[2022-07-23 00:34:02] - INFO: Epoch: 0, Batch[0/2245], Train loss :0.708, Train acc: 0.433
+[2022-07-23 00:34:50] - INFO: Epoch: 0, Batch[1000/2245], Train loss :0.650, Train acc: 0.600
+[2022-07-23 00:35:38] - INFO: Epoch: 0, Batch[2000/2245], Train loss :0.380, Train acc: 0.867
+[2022-07-23 00:35:50] - INFO: Epoch: 0, Train loss: 0.550, Epoch time = 107.963s
+[2022-07-23 00:35:50] - INFO: Accuracy on val 0.764
+[2022-07-23 00:35:50] - INFO: Accuracy on test 0.759
+[2022-07-23 00:35:50] - INFO: Epoch: 1, Batch[0/2245], Train loss :0.380, Train acc: 0.833
+[2022-07-23 00:36:38] - INFO: Epoch: 1, Batch[1000/2245], Train loss :0.397, Train acc: 0.900
+[2022-07-23 00:37:26] - INFO: Epoch: 1, Batch[2000/2245], Train loss :0.255, Train acc: 0.933
+[2022-07-23 00:37:38] - INFO: Epoch: 1, Train loss: 0.319, Epoch time = 107.497s
+[2022-07-23 00:37:38] - INFO: Accuracy on val 0.796
+[2022-07-23 00:37:38] - INFO: Accuracy on test 0.803
+[2022-07-23 00:37:39] - INFO: Epoch: 2, Batch[0/2245], Train loss :0.225, Train acc: 0.900
+[2022-07-23 00:38:26] - INFO: Epoch: 2, Batch[1000/2245], Train loss :0.241, Train acc: 0.900
+[2022-07-23 00:39:15] - INFO: Epoch: 2, Batch[2000/2245], Train loss :0.209, Train acc: 0.933
+[2022-07-23 00:39:26] - INFO: Epoch: 2, Train loss: 0.258, Epoch time = 107.735s
+[2022-07-23 00:39:26] - INFO: Accuracy on val 0.787
+[2022-07-23 00:39:27] - INFO: Accuracy on test 0.798
+[2022-07-23 00:39:27] - INFO: Epoch: 3, Batch[0/2245], Train loss :0.248, Train acc: 0.833
+[2022-07-23 00:40:15] - INFO: Epoch: 3, Batch[1000/2245], Train loss :0.379, Train acc: 0.867
+[2022-07-23 00:41:03] - INFO: Epoch: 3, Batch[2000/2245], Train loss :0.438, Train acc: 0.800
+[2022-07-23 00:41:14] - INFO: Epoch: 3, Train loss: 0.226, Epoch time = 107.757s
+[2022-07-23 00:41:15] - INFO: Accuracy on val 0.810
+[2022-07-23 00:41:18] - INFO: Accuracy on test 0.807
+[2022-07-23 00:41:18] - INFO: Epoch: 4, Batch[0/2245], Train loss :0.079, Train acc: 0.967
+[2022-07-23 00:42:06] - INFO: Epoch: 4, Batch[1000/2245], Train loss :0.246, Train acc: 0.867
+[2022-07-23 00:42:54] - INFO: Epoch: 4, Batch[2000/2245], Train loss :0.083, Train acc: 1.000
+[2022-07-23 00:43:06] - INFO: Epoch: 4, Train loss: 0.203, Epoch time = 107.574s
+[2022-07-23 00:43:06] - INFO: Accuracy on val 0.810
+[2022-07-23 00:43:06] - INFO: Accuracy on test 0.805
+[2022-07-23 00:43:06] - INFO: Epoch: 5, Batch[0/2245], Train loss :0.147, Train acc: 0.967
+[2022-07-23 00:43:54] - INFO: Epoch: 5, Batch[1000/2245], Train loss :0.348, Train acc: 0.900
+[2022-07-23 00:44:42] - INFO: Epoch: 5, Batch[2000/2245], Train loss :0.096, Train acc: 0.967
+[2022-07-23 00:44:54] - INFO: Epoch: 5, Train loss: 0.188, Epoch time = 107.882s
+[2022-07-23 00:44:54] - INFO: Accuracy on val 0.810
+[2022-07-23 00:44:54] - INFO: Accuracy on test 0.798
+[2022-07-23 00:44:54] - INFO: Epoch: 6, Batch[0/2245], Train loss :0.162, Train acc: 0.900
+[2022-07-23 00:45:42] - INFO: Epoch: 6, Batch[1000/2245], Train loss :0.260, Train acc: 0.900
+[2022-07-23 00:46:30] - INFO: Epoch: 6, Batch[2000/2245], Train loss :0.166, Train acc: 0.967
+[2022-07-23 00:46:42] - INFO: Epoch: 6, Train loss: 0.172, Epoch time = 107.454s
+[2022-07-23 00:46:42] - INFO: Accuracy on val 0.812
+[2022-07-23 00:46:42] - INFO: Accuracy on test 0.800
+[2022-07-23 00:46:42] - INFO: Epoch: 7, Batch[0/2245], Train loss :0.059, Train acc: 0.967
+[2022-07-23 00:47:30] - INFO: Epoch: 7, Batch[1000/2245], Train loss :0.243, Train acc: 0.867
+[2022-07-23 00:48:18] - INFO: Epoch: 7, Batch[2000/2245], Train loss :0.342, Train acc: 0.867
+[2022-07-23 00:48:29] - INFO: Epoch: 7, Train loss: 0.159, Epoch time = 107.295s
+[2022-07-23 00:48:30] - INFO: Accuracy on val 0.794
+[2022-07-23 00:48:30] - INFO: Accuracy on test 0.803
+[2022-07-23 00:48:30] - INFO: Epoch: 8, Batch[0/2245], Train loss :0.331, Train acc: 0.900
+[2022-07-23 00:49:18] - INFO: Epoch: 8, Batch[1000/2245], Train loss :0.242, Train acc: 0.933
+[2022-07-23 00:50:05] - INFO: Epoch: 8, Batch[2000/2245], Train loss :0.057, Train acc: 1.000
+[2022-07-23 00:50:17] - INFO: Epoch: 8, Train loss: 0.148, Epoch time = 107.041s
+[2022-07-23 00:50:17] - INFO: Accuracy on val 0.782
+[2022-07-23 00:50:17] - INFO: Accuracy on test 0.791
+[2022-07-23 00:50:17] - INFO: Epoch: 9, Batch[0/2245], Train loss :0.133, Train acc: 0.933
+[2022-07-23 00:51:05] - INFO: Epoch: 9, Batch[1000/2245], Train loss :0.150, Train acc: 0.967
+[2022-07-23 00:51:53] - INFO: Epoch: 9, Batch[2000/2245], Train loss :0.186, Train acc: 0.900
+[2022-07-23 00:52:05] - INFO: Epoch: 9, Train loss: 0.138, Epoch time = 107.283s
+[2022-07-23 00:52:05] - INFO: Accuracy on val 0.784
+[2022-07-23 00:52:05] - INFO: Accuracy on test 0.810
+[2022-07-23 00:52:07] - INFO: ## 成功载入已有模型，进行预测
+[2022-07-23 00:52:07] - INFO: 缓存文件 /home/ubuntu/hw-BMCourse/L2/data/glue-sst2/test_None.pt 存在，直接载入缓存文件！
+[2022-07-23 00:52:07] - INFO: 缓存文件 /home/ubuntu/hw-BMCourse/L2/data/glue-sst2/train_None.pt 存在，直接载入缓存文件！
+[2022-07-23 00:52:14] - INFO: 缓存文件 /home/ubuntu/hw-BMCourse/L2/data/glue-sst2/dev_None.pt 存在，直接载入缓存文件！
+[2022-07-23 00:52:14] - INFO: Accuracy on test 0.807

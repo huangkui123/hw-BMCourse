@@ -1,0 +1,18 @@
+Train Batch Size = 64, Learning Rate = 0.01, Val Loss=4.61632
+
+Train Batch Size = 64, Learning Rate = 0.025, Val Loss=4.57471
+
+Train Batch Size = 64, Learning Rate = 0.1, Val Loss=4.68282
+
+Train Batch Size = 96, Learning Rate = 0.1, Val Loss=4.66735
+
+Train Batch Size = 96, Learning Rate = 0.025, Val Loss=4.57200
+
+Train Batch Size = 96, Learning Rate = 0.01, Val Loss=4.64655
+
+Train Batch Size = 128, Learning Rate = 0.01, Val Loss=4.67857
+
+Train Batch Size = 128, Learning Rate = 0.025, Val Loss=4.58384
+
+Train Batch Size = 128, Learning Rate = 0.1, Val Loss=4.63138
+
