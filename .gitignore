@@ -1,3 +1,5 @@
 __pycache__
 bert-base-uncased
 *.pt
+*.bin
+A Training Demo

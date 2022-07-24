@@ -1,0 +1,18 @@
+{
+  "backbone_checkpoint_name": "opt-2.7b",
+  "backbone_class": "OPTForCausalLM",
+  "backbone_hash": "1f99ba5ef71324fb88adc07c18721a4e",
+  "bottleneck_dim": 24,
+  "delta_type": "adapter",
+  "exclude_modules": [
+    "lm_head"
+  ],
+  "modified_modules": [
+    "self_attn",
+    "fc2"
+  ],
+  "non_linearity": "gelu_new",
+  "opendelta_version": "0.2.4",
+  "sequential": true,
+  "transformers_version": "4.20.1"
+}

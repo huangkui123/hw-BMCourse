@@ -41,4 +41,6 @@ trainer = Trainer(
 	compute_metrics=compute_metrics
 )
 
+print ("Begin Training")
+
 trainer.train()

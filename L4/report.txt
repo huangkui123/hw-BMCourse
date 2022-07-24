@@ -1,0 +1,12 @@
+1. The delta checkpoint size: 31M. 
+   The backbone model size: 5.0G
+
+2. The run time GPU memory with delta tuning (opt-2.7b): 17417MiB 
+
+3. The run time GPU memory without delta tuning (opt-125m): 2391MiB 
+   The run time GPU memory without delta tuning (opt-125m): 2401MiB 
+
+4. Example:
+
+Q: How many championships did Michael Jordan win?
+A: 6

@@ -1,0 +1,3 @@
+Best metric on the validation set:
+checkpoint-13094
+{'eval_loss': 0.6446995735168457, 'eval_accuracy': 0.6214534138751602, 'eval_runtime': 1.7011, 'eval_samples_per_second': 3211.449, 'eval_steps_per_second': 201.046, 'epoch': 2.0}
